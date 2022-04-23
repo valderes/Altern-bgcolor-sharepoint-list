@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "txtContent": "= @group.columnDisplayName +': ' + @group.fieldData.displayValue + ': possui ' + @group.count + if(@group.count > '1', ' interessados', ' interessado'",
+      "style": {
+        "flex-wrap": "wrap",
+        "display": "flex",
+        "box-sizing": "border-box",
+        "padding": "10px",
+        "align-items": "center",
+        "white-space": "nowrap",
+        "overflow": "hidden",
+        "margin": "1px 4px 4px 1px",
+        "color": "#FFFFFF",
+        "font-weight": "bold",
+        "background-color": "=if(indexOf(@group.fieldData, 'Curitiba') >= 0, '#00A166', if(indexOf(@group.fieldData, 'Porto') >= 0, '#753371', ''))"
+      }
+    }
+  }
+}
