@@ -1,4 +1,5 @@
-# Altern-bgcolor-sharepont-list
+# Altern-bgcolor-shareponit-list
+
 ** Change the background color of the titles in a Shaprepont grouped list view according content string.**
 
 To change the backgrond color of the Grouped List Title baed on a string in the title (this was what I need), like all customisation on Sjarepoit, we use only JSON commands.
